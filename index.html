@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href=".assets/css/reset.css" />
+</head>
+<body>
+<nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a id="name" class="navbar-brand" href="#">Nick McDaniel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button> <!--THE BUTTON WORKED IN BOOTSTRAP BUT DOES NOT WORK WHEN I USE IT MYSELF-->
+      
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2"> <!--I think this may be the only thing I did correctly ;_;-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+</nav>
+    
+<div class="container">  
+    <div class="row">  
+        <div class="col-md-2" "col-sm-12" class="col-xs-12"></div> <!--div column should be here to separate the main div from far wall - for some reason is not cooperating like the index page-->  
+        <!--Also not sure if I was supposed to use a "card" from Bootstrap? Nothing in the documentation looked even somewhat similar to what I needed here-->                         
+        <section class="main" class="col-sm-12" class="col-xs-12" class="col-md-8"> <!--THIS WAS WORKING AND NOW IT'S NOT-->
+                <div class="subject"><h1>About Me</h1></div>
+                    <br>
+                    <p><img id="img" src="./assets/images/bio-pic.png" alt="Bio pic" width="150px" height="150px">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,s sunt in culpa qui officia deserunt 
+                    mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem 
+                    sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non 
+                    numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                    qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </div>      
+        </section>
+        <div class="col-md-6">
+            
+</div>    
+
+<footer class="footer"> <!--Bootsrap does not have footers? I used my own.-->
+    <div id="text">
+        <p><span>copyright ©</span></p>
+    </div>
+</footer>
+
+</body>
+</html>
